@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tienda de Angela</title>
+    <link rel="icon" href="./img/Logo-angela.png">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <main class="container-fluid">
+        <section>
+        <img class="personaje-angela position-absolute top-50 end-0 translate-middle-y" src="./img/Angela-cat.png" alt="Angela" height="300">
+        <div class="cuadro-dialogo position-absolute top-0 start-50 translate-middle-x">
+            <h1 class="fs-2"> Hola, soy Angela. Bienvenidos a mi tienda!</h1>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto1)">Alimento Balanceado</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto2)">Latita de Atún</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto3)">Botella de Leche</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto4)">Comedero</li>
+            <li  class="list-group-item list-group-item-danger"onclick="comprar(objeto5)">Collar</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto6)">Cama Moises</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto7)">Bandeja Sanitaria</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto8)">Cepillo</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto9)">Transportadora</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto10)">Rascador Torre</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto11)">Juguete de Ratón</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto12)">Juguete Interactivo</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto13)">Ovillo de Lana</li>
+            <li class="list-group-item list-group-item-danger" onclick="comprar(objeto14)">Caja</li>
+          </ul>
+          <section class="ventana">
+            <h1 style="text-align: left">Mi Inventario:</h1>
+            <ul id="inventario">
+            </ul>
+            <img src="./img/Moneda.png" alt="Moneda" height="40">
+            <h1 id="monedas" style="text-align: right">Monedas: <span></span></h1>
+          </section>
+        </section>
+        </main>
+        <script src="app.js"></script>
+</body>
+</html>

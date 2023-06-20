@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./img/Fondo.jpg");
+    font-family: 'Staatliches', cursive;
+}
+
+img{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.cuadro-dialogo{
+    margin-top: 50px;
+    margin-left: 210px;
+    padding: 5px;
+    position: relative;
+    border: 5px solid black;
+    background-color: white;
+    opacity: 0.9;
+    font-size: 5px;
+}
+
+ul {
+    color: #008080;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+  }
+  li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 5px solid #4B0082;
+    font-size: 1.5rem;
+  }
+  li:hover {
+    border: 5px solid #C71585;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  .ventana {
+    margin-top: 180px;
+    margin-left: 270px;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    text-align: center;
+    border: 5px solid white;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+  #inventario {
+    min-height: 140px; 
+    position: relative;
+    padding: 1rem; 
+  }
+  
+  #monedas {
+    color: gold;
+    font-size: 3rem;
+  }
+  .Objetos {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+  }
