@@ -101,8 +101,9 @@ ul {
       position: absolute;
       top: 50%;
       width: 50%;
-      top: 180px;
+      top: 200px;
       right: 100px;
+      padding: 5px;
   }
     ul {
     color: #008080;
@@ -111,18 +112,18 @@ ul {
     position: absolute;
     top: 50%;
     width: 50%;
-    top: 380px;
+    top: 390px;
     right: 100px;
   }
     .ventana {
     position: absolute;
     top: 50%;
     width: 80%;
-    top: 1150px;
+    top: 1180px;
     right: 50px;
     margin-top: 90px;
     margin-left: 270px;
-    padding: 2px;
+    padding: 5px;
     text-align: center;
     border: 5px solid white;
     background-color: black;
@@ -137,7 +138,6 @@ ul {
     .Objetos {
     display: inline-block;
     position: relative;
-    text-align: center;
     width: 80px;
     height: 80px;
   }
